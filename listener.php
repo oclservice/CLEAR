@@ -1,4 +1,5 @@
 <?php
+#LISTENER FILE WHICH LOADS DATA FROM THE COLLEGE's SUMMON INSTANCE AND MAKES A REQUEST TO SCHOLAR"S PORTAL FOR LICENSE INFO
 header('Access-Control-Allow-Origin: *');  
 if(isset($_GET['license']) && isset($_GET['source']) && isset($_GET['college'])){
 
